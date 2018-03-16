@@ -1,0 +1,13 @@
+https://math.meta.stackexchange.com/questions/5020/mathjax-basic-tutorial-and-quick-reference
+
+http://docs.mathjax.org/en/latest/tex.html
+
+Per inserire dei collegamenti nei testi usa il comando "\href" di Latex (https://en.wikibooks.org/wiki/LaTeX/Hyperlinks#.5Chref).
+Sintassi: $ \href{URL}{\text{DESCRIZIONE}} $
+
+Per generare dinamicamente l'URL inserisci "def(CODICE)" oppure "th(CODICE)" (sensa virgolette).
+Ho programmato l'applicazione perché generi automaticamente l'url corretto in base al CODICE.
+
+Esempio: Sia $\vec{x}$ un $\href{def(7)}{\text{punto di accumulazione}}$ di $\mathbb{R}$ ...
+Per testare il latex: https://jsbin.com/bitezicafa/edit?html,output
+Per inserire dei simboli matematici dentro i link: $\href{def(7)}{\vec{x}}$
