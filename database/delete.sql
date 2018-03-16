@@ -1,0 +1,9 @@
+delete from esempio;
+delete from deriva;
+delete from ipotesi;
+delete from definizione;
+delete from richiama;
+delete from dimostrazione;
+delete from teorema;
+delete from argomento;
+delete from sezione;
